@@ -3,107 +3,169 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@600&display=swap" rel="stylesheet">
     <title>Cheesecake</title>
   </head>
   <body>
-    <header>
-      <div class="icon">
-        <img src="/image/LOGO OF CHEESECAKE.png" alt="Logo Of Cheesecake" />
-      </div>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Menu</a>
-        <a href="#">Contact</a>
-        <div class="sign up">
-          <a href="#">Sign Up</a>
-        </div>
-      </nav>
+ <nav>
+  <div class="nav_container container">
+     
+    <img src="/image/LOGO OF CHEESECAKE.png" class="logo" alt="Logo Of Cheesecake" />
+      
+    <div class="links__container">
+      <ul class="nav_1">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
 
+      <ul class="signUp">
+        <li><a href="#">Sign Up</a></li>
+      </ul>
+    </div>
+
+    </div> 
+  </nav>
+  <main>
+    <div class="main__container container">
+    <div class="intro__content">
       <h1>Bite The World of Cheesecake Wonders</h1>
 
       <p>
         We always make our customer happy by providing as many choices as
         possible
       </p>
-      <div>
-        <p>Getb stated</p>
-        <p>Watch Demo</p>
+      <div class="intro_button">
+        <a href="">Get Started</a>
+        <a href="">Watch Demo</a>
+       
       </div>
-    </header>
+    </div>
 
-    <article>
-      <div class="infoImage">
-        <img
-          src="/image/About Us Image.png"
-          alt="Picture of Cheesecake with Strawberry and Blackberry toppings"
-        />
+    <img src="/image/Main Image (Home).png" class="intro_image" alt="cheesecake image">
+
+
+  </div>
+
+
+   
+
+      <div class="intro-2">
+        <div class="intro__2-container container">
+
+       
+
+        <img src="/image/cheese cake with stawberry and blueberry toppings.png" class="intro__2__image"  alt="image Cheecake-strawbeery and blueberry topping">
+      
+        <div class="intro__2-content">
+
+        <p>We Love Cheesecake</p>
+        <p>Discover Our Cheesecake Story</p>
+        <p>
+          At Cheesecake Love, quality is our cornerstone. Each cheesecake is
+          crafted with the finest ingredients, meticulous attention to detail, and
+          a dash of creativity.
+        </p>
+        <p>
+          We believe in delivering not just desserts but moments of sheer
+          indulgence.
+        </p>
+  
+        <a href="#">Read More</a>
+
       </div>
+      </div>
+       
 
-      <h2>We Love Cheesecake</h2>
-      <p>Discover Our Cheesecake Story</p>
-      <p>
-        At Cheesecake Love, quality is our cornerstone. Each cheesecake is
-        crafted with the finest ingredients, meticulous attention to detail, and
-        a dash of creativity.
-      </p>
-      <p>
-        We believe in delivering not just desserts but moments of sheer
-        indulgence.
-      </p>
+    </div>
 
-      <a href="#">Read More</a>
-    </article>
+    <section>
+      <div class="section_container">
+      <p class="content__head">OUR MENU</p>
 
-    <article class="menu">
-      <h2>OUR MENU</h2>
-
-      <section>
-        <div class="blueberry cake">
+ <div class="menu__container">
+        <div class="blueberryCake__container menu">
           <img
-            src="image/Blueberry Cheesecake Image.png"
-            alt="Image of Blueberry cheesecake"
+            src="image/Blueberry Cheesecake Image.png"   class="blueberrycake product"
+            alt="Image Blueberry cheesecake"
           />
+          <div class="menu__content">
           <p>Blueberry Cheesecake</p>
           <p>Blueberry love, cheesecake delight!</p>
           <div class="price">
-            <p>$9.00</p>
-            <p></p>
+            <p><span>$</span>9.00</p>
+            
+            <p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
           </div>
         </div>
-        <div class="biscoff cake">
+        </div>
+
+
+
+        <div class="biscoffCake__container menu">
           <img
-            src="image/Biscoff Cheesecake Image.png"
-            alt="Image of Biscoff cheesecake"
+            src="image/Biscoff Cheesecake Image.png" class="biscoffcake product"
+            alt="Image Biscoff cheesecake"
           />
+          <div class="menu__content">
           <p>Biscoff Cheesecake</p>
           <p>Biscoff adores cheesecake magic</p>
           <div class="price">
-            <p>$11.00</p>
-            <p></p>
+            <p><span>$</span>11.00</p>
+            <!--image of stars-->
+            <p>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </p>
           </div>
         </div>
-        <div class="chocolate cake"></div>
+        </div>
+        <div class="chocolateCake__container menu">
+
         <img
-          src="/image/Chocolate Cheecake Cake.png"
-          alt="Image of Chocolate cheesecake"
+          src="/image/Chocolate Cheecake Cake.png" class="chocolateCake product"
+          alt="Image Chocolate cheesecake"
         />
+        <div class="menu__content">
         <p>Chocolate Cheesecake</p>
         <p>Cherish Chocolate, relish cheesecake magic!</p>
         <div class="price">
-          <p>$10.00</p>
-          <p></p>
+          <p><span>$</span>10.00</p>
+          <!--image of stars-->
+          <p><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i></p>
         </div>
-      </section>
-      <div><a href="#">View More</a></div>
-    </article>
+      </div>
+    </div>
+      </div>
+    </div>
+    </section>
 
-    <article class="blog">
-      <h2>Our Blog</h2>
+    <article>
+      <div class="article__container">
+      <p class="content__head">Our Blog</p>
       <p>Our Recent Posts</p>
-
-      <section>
-        <div>
+    
+  <div class="blog__container">
+    <div class="blog">
+      <div class="blog__content">
+          <img src="/image/IMAGE FOR BLOG 1.png" class="blog__image" alt="">
           <p>23 Nov, 2023 / Cheesecake</p>
           <p>A Peek Behind the Cheesecake Curtain</p>
           <p>
@@ -111,20 +173,26 @@
             scenes, whisking dreams into reality. Our kitchen is a symphony and
             very...
           </p>
-          <div class="readMore"><a href="#">Read More</a></div>
+          <a href="#">Read More</a>
         </div>
+      </div>
 
-        <div>
+        <div class="blog">
+          <div class="blog__content">
+          <img src="/image/Image Blog 2.png" class="blog__image" alt="">
           <p>18 July, 2023 / Cheesecake</p>
           <p>Low-Sugar & Gluten-Free Cheesecakes</p>
           <p>
             Welcome to our guilt-free indulgence zone, where we're redefining
             the art of cheesecake with our delectable low-sugar...
           </p>
-          <div class="readMore"><a href="#">Read More</a></div>
+          <a href="#">Read More</a>
+        </div>
         </div>
 
-        <div>
+        <div class="blog">
+          <div class="blog__content">
+          <img src="/image/Image Blog 3.png" class="blog__image" alt="">
           <p>1 January, 2024 / Cheesecake</p>
           <p>Sweet Words - Customer Reviews of Cheesecakes</p>
           <p>
@@ -132,42 +200,46 @@
             Words." This curated collection of customer reviews offers a glimpse
             into the joy...
           </p>
-          <div class="readMore"><a href="#">Read More</a></div>
+        <a href="#">Read More</a>
         </div>
-      </section>
+      </div>
+      
+    </div>
     </article>
 
-    <article class="ContactUs">
-        <div>
-        <h2>Contact Us</h2>
+    <section>
+      <div class="ContactUs__section container">
+      
+      <div class="ContactUs__content">
+        <p class="content__head">Contact Us</p>
         <p>Need to get in touch with us? Either fill out the form with your inquiry or find the department!</p>
-        <img src="image/Contact Us Image.png" alt="ContactUs image representation">
+        <img src="image/Contact Us Image.png" class="ContactUs__image" alt="ContactUs image representation">
     </div>
-<div>
-        <form action="#">
 
+    <div class="ContactUs__form">
         </form autocomplete="on">
+        <label for="name"></label>
         <input type="text" id="name" placeholder="Name"><br>
-        <input type="text" id="email" placeholder="email"><br>
-        <<textarea id="message" name="message"  placeholder="Your Message"></textarea>
-        <input type="submit" value="Contact us now">
+        <label for="email"></label>
+        <input type="text" id="email" placeholder="Email"><br>
+        <textarea id="message" name="message"  placeholder="Your Message..."></textarea> <br>
+        <input type="submit" class="form_button" value="Contact us now">
         </form>
     </div>
+  </div>
+    </section>
 
-   <footer>
-    <div>
-        facebook
-        instagram
-        twitter
-        youtube
+  </main>
 
-    </div>
+   <footer >
+    <div class="social__icon container">
+      <i class="fa-brands fa-3x fa-facebook-f"><a href=""></a></i>
+      <i class="fa-brands fa-3x fa-instagram"><a href=""></a></i>
+      <i class="fa-brands fa-3x fa-twitter"><a href=""></a></i>
+      <i class="fa-brands fa-3x fa-youtube"><a href=""></a></i>
+  </div>
 
    </footer>
-
-
-
-
-    </article>
+   <script src="https://kit.fontawesome.com/869682952a.js" crossorigin="anonymous"></script>
   </body>
 </html>
